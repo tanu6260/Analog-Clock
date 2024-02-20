@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #091921;
+  color: aliceblue;
+}
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.center-div {
+  height: 55vh;
+  width: 25vw;
+
+  background: url(clock.png) no-repeat;
+  background-size: cover;
+  box-shadow: 0 4px 13px 5px white;
+
+  position: relative;
+}
+.wrapper-minute,
+.wrapper-hour,
+.wrapper-second {
+  position: absolute;
+  transform-origin: bottom;
+}
+.wrapper-minute {
+  height: 90px;
+  width: 9px;
+  border-radius: 10px;
+  background-color: green;
+  top: 22%;
+  left: 49%;
+
+  opacity: 60%;
+}
+.wrapper-hour {
+  height: 70px;
+  width: 10px;
+  border-radius: 10px;
+  top: 29%;
+  left: 48.7%;
+  background-color: black;
+
+  opacity: 60%;
+}
+.wrapper-second {
+  height: 100px;
+  width: 8px;
+  border-radius: 10px;
+  top: 18.5%;
+  left: 49%;
+  background-color: rgb(177, 19, 19);
+  opacity: 60%;
+}
+/* .clock-image {
+  height: 50%;
+  box-shadow: 0 4px 15px 25px white;
+  border: #091921;
+  border-radius: 5%;
+}
+.center-container {
+  height: 100vh;
+  width: 100vw;
+  border: 4px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* .wrapper-minute {
+  height: 75px;
+  width: 3px;
+  background-color: black;
+}
+
+.wrapper-hour {
+  height: 60px;
+  width: 4px;
+
+  background-color: rgb(177, 19, 19);
+}
+
+.wrapper-second {
+  height: 85px;
+  width: 2px;
+  background-color: rgb(19, 177, 56);
+} */
